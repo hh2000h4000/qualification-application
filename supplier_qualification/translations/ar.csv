@@ -1,0 +1,191 @@
+Qualification Application Category,صنف توريد في الطلب
+Supply Category,صنف التوريد,Qualification Application Category
+Qualification Document,مستند تأهيل
+Document,المستند,Qualification Document
+Expiry Date,تاريخ الانتهاء,Qualification Document
+File,الملف,Qualification Document
+Link,الرابط,Qualification Document
+Attached,مرفق,Qualification Document
+Qualification Staff Member,فرد من الكادر
+Full Name,الاسم,Qualification Staff Member
+Job Title,الوظيفة,Qualification Staff Member
+Specialty,التخصص,Qualification Staff Member
+Years of Experience,سنوات الخبرة,Qualification Staff Member
+Certificates Link,مرجع الشهادات,Qualification Staff Member
+Qualification Project,مشروع أو عقد سابق
+Project / Contract,اسم المشروع / العقد,Qualification Project
+Components,مكونات المشروع,Qualification Project
+Sites Covered,عدد المواقع المشمولة,Qualification Project
+Owner / Client,المالك / الجهة,Qualification Project
+Owner Address,عنوان المالك,Qualification Project
+Owner Contact Number,رقم التواصل مع المالك,Qualification Project
+Contract Value,قيمة العقد,Qualification Project
+Contract Duration (Months),مدة العقد (شهر),Qualification Project
+Start Date,تاريخ البداية,Qualification Project
+End Date,تاريخ الانتهاء,Qualification Project
+Qualification Budget Year,ميزانية سنة مالية
+Year,العام,Qualification Budget Year
+Attached,مرفق,Qualification Budget Year
+File,الملف,Qualification Budget Year
+Note,ملاحظة,Qualification Budget Year
+Qualification Chair Decision,قرار رئيس اللجنة
+Decision,القرار,Qualification Chair Decision
+Result,النتيجة,Qualification Chair Decision
+Percentage,النسبة,Qualification Chair Decision
+Note,ملاحظة,Qualification Chair Decision
+Decided By,صاحب القرار,Qualification Chair Decision
+Decided At,وقت القرار,Qualification Chair Decision
+Qualification Required Document,مستند مطلوب
+Track,المسار,Qualification Required Document
+Document,المستند,Qualification Required Document
+Qualification Supply Category,صنف توريد
+Category,الصنف,Qualification Supply Category
+Qualification Committee Member,عضو لجنة التأهيل
+User,المستخدم,Qualification Committee Member
+Full Name,الاسم,Qualification Committee Member
+Active,نشط,Qualification Committee Member
+Qualification Settings,إعدادات التأهيل
+Supplier Group,مجموعة الموردين,Qualification Settings
+The group a qualified applicant is created under as a Supplier.,المجموعة التي يُسجَّل فيها المتقدّم المؤهَّل كمورد.,Qualification Settings
+Required Documents,المستندات المطلوبة,Qualification Settings
+Qualification Draft,مسودة طلب تأهيل
+Email,البريد الإلكتروني,Qualification Draft
+Track,المسار,Qualification Draft
+Step,الخطوة,Qualification Draft
+Data,البيانات,Qualification Draft
+Qualification Vote,تقييم عضو اللجنة
+Application,طلب التأهيل,Qualification Vote
+Round,جولة التصويت,Qualification Vote
+Member,العضو,Qualification Vote
+Member Name,اسم العضو,Qualification Vote
+Voted At,وقت التقييم,Qualification Vote
+Decision,القرار,Qualification Vote
+Proposed Percentage,نسبة التأهيل المقترحة,Qualification Vote
+Note,ملاحظة,Qualification Vote
+Proposes Negotiation,يقترح تفاوضاً,Qualification Vote
+Negotiation Details,تفاصيل التفاوض المقترح,Qualification Vote
+Qualification Application,طلب تأهيل
+Track,المسار,Qualification Application
+Email,البريد الإلكتروني,Qualification Application
+Status,الحالة,Qualification Application
+Submitted At,تاريخ التقديم,Qualification Application
+Organisation,معلومات المنشأة,Qualification Application
+Organisation Name,اسم المنشأة,Qualification Application
+Commercial Registration No.,رقم السجل التجاري,Qualification Application
+Commercial Registration Date,تاريخ السجل التجاري,Qualification Application
+Capital,رأس مال المنشأة,Qualification Application
+Responsible Person,الشخص المسؤول,Qualification Application
+Position,المنصب,Qualification Application
+Founding Year,سنة التأسيس,Qualification Application
+Address and Contact,العنوان والتواصل,Qualification Application
+City,المدينة,Qualification Application
+Street,الشارع,Qualification Application
+P.O. Box,ص. ب,Qualification Application
+Postal Code,الرمز البريدي,Qualification Application
+Phone,هاتف,Qualification Application
+Fax,فاكس,Qualification Application
+Secondary Email,البريد الإلكتروني الثانوي,Qualification Application
+Supply Activity,نشاط التوريد,Qualification Application
+Supply Categories,أصناف التوريد,Qualification Application
+Other Category,صنف آخر,Qualification Application
+Supply Activity Description,وصف نشاط التوريد,Qualification Application
+Documents,المستندات,Qualification Application
+Team,الكوادر,Qualification Application
+Engineers,المهندسون,Qualification Application
+Supervisors,المشرفون / المراقبون,Qualification Application
+Technicians,الفنيون,Qualification Application
+Has Sufficient Operational Staff,كادر فني تشغيلي كافٍ,Qualification Application
+Commits to Resident Cleaners,التزام بعمال نظافة مقيمين,Qualification Application
+Capacity and Experience,القدرات والخبرات,Qualification Application
+Organisation Chart Link,مرجع الهيكل التنظيمي,Qualification Application
+Organisation Chart File,ملف الهيكل التنظيمي,Qualification Application
+Vehicles Assigned,عدد السيارات المخصصة,Qualification Application
+Commits to Uniforms and ID Cards,التزام بزي موحد وبطاقات تعريفية,Qualification Application
+Equipment Proof Link,مرجع إثبات المعدات,Qualification Application
+Equipment Proof File,ملف إثبات المعدات,Qualification Application
+Previous Projects and Contracts,المشاريع والعقود السابقة,Qualification Application
+Projects,المشاريع,Qualification Application
+Quality and Finance,الجودة والوضع المالي,Qualification Application
+Has a Quality System,وجود نظام جودة,Qualification Application
+Quality System Details,تفاصيل نظام الجودة,Qualification Application
+Quality System Link,مرجع نظام الجودة,Qualification Application
+Quality System File,ملف نظام الجودة,Qualification Application
+Financial Position,الوضع المالي,Qualification Application
+Audited Budgets,الميزانيات المدققة,Qualification Application
+Has Legal Disputes,نزاعات قضائية,Qualification Application
+Dispute Details,تفاصيل النزاعات,Qualification Application
+Has an Accounting System,وجود نظام محاسبي,Qualification Application
+Bank Statement Link,مرجع كشف الحساب البنكي,Qualification Application
+Bank Statement File,ملف كشف الحساب البنكي,Qualification Application
+Declaration,الإقرار,Qualification Application
+Organisation Name (Declaration),اسم المنشأة (الإقرار),Qualification Application
+Responsible Employee,الموظف المسؤول,Qualification Application
+Declaration Date,تاريخ الإقرار,Qualification Application
+Declaration Confirmed,تم تأكيد الإقرار,Qualification Application
+Committee,اللجنة,Qualification Application
+Voting Round,جولة التصويت,Qualification Application
+Final Result,النتيجة النهائية,Qualification Application
+Final Percentage,نسبة التأهيل النهائية,Qualification Application
+Supplier,المورد,Qualification Application
+Chair Decisions,سجل قرارات الرئيس,Qualification Application
+Construction Contractor,مقاول تنفيذ
+O&M Contractor,مقاول صيانة وتشغيل
+General Supplier,مورد عام
+Qualified,مؤهَّل
+Not Qualified,غير مؤهَّل
+Approve Result,اعتماد النتيجة
+Record Reservation,تحفظ
+Raise Inquiry,استفسار
+Request Revote,طلب إعادة تقييم
+Supplier Qualification,تأهيل الموردين
+Qualification Admin,إدارة منصة التأهيل
+"The percentage must be between 0 and 100.",النسبة لازم تكون بين 0 و 100.
+Enter a valid email address.,الرجاء إدخال بريد إلكتروني صحيح.
+The verification code has expired. Request a new one.,انتهت صلاحية رمز التحقق. اطلب رمزاً جديداً.
+The verification code is not correct.,رمز التحقق غير صحيح.
+Your session has ended. Verify your email again.,انتهت الجلسة. الرجاء التحقق من البريد الإلكتروني مرة أخرى.
+Your verification code,رمز التحقق
+Your verification code for the supplier qualification portal is {0}. It is valid for 10 minutes.,رمز التحقق الخاص بكم في بوابة تأهيل الموردين والمقاولين هو {0}، وهو صالح لمدة 10 دقائق.
+Qualification application {0} received,تم استلام طلب التأهيل {0}
+Your application was received and referred to the qualification committee. Keep the reference number {0} to follow it up.,تم استلام طلبكم وإحالته إلى لجنة تأهيل الموردين. احتفظوا برقم الطلب {0} لمتابعته.
+The email could not be sent. Try again in a few minutes.,تعذر إرسال البريد الإلكتروني. الرجاء المحاولة بعد دقائق.
+Unknown qualification track.,مسار التأهيل غير معروف.
+The form is too large to save.,حجم الاستمارة أكبر من المسموح به للحفظ.
+"This file type is not accepted. Upload a PDF, an image, or a Word or Excel file.",نوع الملف غير مقبول. ارفعوا ملف PDF أو صورة أو ملف Word أو Excel.
+The file is larger than 10 MB.,حجم الملف أكبر من 10 ميجابايت.
+The file could not be read. Check that it opens on your device and upload it again.,تعذرت قراءة الملف. تأكدوا أنه يفتح على جهازكم ثم ارفعوه مرة أخرى.
+Confirm the declaration before submitting.,الرجاء تأكيد الإقرار قبل تقديم الطلب.
+"Complete the declaration: organisation name, responsible employee and date.",الرجاء تعبئة بيانات الإقرار: اسم المنشأة والموظف المسؤول والتاريخ.
+"Complete the organisation details: name, commercial registration number and responsible person.",الرجاء تعبئة بيانات المنشأة: الاسم ورقم السجل التجاري واسم الشخص المسؤول.
+No file was received.,لم يصل أي ملف.
+The form could not be read.,تعذرت قراءة بيانات الاستمارة.
+Application,الطلب
+You do not have access to the qualification committee.,ليس لديك صلاحية الدخول إلى لجنة التأهيل.
+This application is no longer open for the members' evaluation.,هذا الطلب لم يعد في مرحلة تقييم الأعضاء.
+Choose a decision and a proposed qualification percentage.,الرجاء تحديد القرار ونسبة التأهيل المقترحة.
+Choose the final result and the final qualification percentage.,الرجاء تحديد النتيجة النهائية ونسبة التأهيل النهائية.
+Write a note explaining the decision.,الرجاء إضافة ملاحظة توضح سبب القرار.
+Unknown decision.,قرار غير معروف.
+Set a Supplier Group in Qualification Settings before qualifying an applicant.,حدّد مجموعة الموردين في إعدادات التأهيل قبل اعتماد تأهيل أي متقدّم.
+"Your organisation has been qualified, with a qualification percentage of {0}%.",نبارك لكم: تم تأهيل منشأتكم بنسبة تأهيل {0}%.
+We regret to inform you that your organisation was not qualified.,نأسف لإبلاغكم بأن منشأتكم لم تُؤهَّل.
+The qualification committee has a note on your application:,لدى لجنة التأهيل ملاحظة على طلبكم:
+Update on qualification application {0},تحديث على طلب التأهيل {0}
+"You can follow your application on the portal, under My Applications.",يمكنكم متابعة طلبكم من البوابة في صفحة «طلباتي».
+Can Approve,صلاحية الاعتماد,Qualification Committee Member
+Reviews applications and makes the final decision. A member without it evaluates and passes the application on.,يراجع الطلبات ويتخذ القرار النهائي. العضو بدون هذه الصلاحية يقيّم الطلب ويمرّره.,Qualification Committee Member
+Approver May Decide Before Reviews Are Complete,المعتمِد يقرر قبل اكتمال تقييم المراجعين,Qualification Settings
+Off: an application reaches the approver once every reviewer has evaluated it. On: the approver may decide at any time.,مطفأ: الطلب يصل للمعتمِد بعد أن يقيّمه كل المراجعين. مفعّل: المعتمِد يقرر في أي وقت.,Qualification Settings
+A decision can be made only after every reviewer has evaluated the application.,القرار متاح فقط بعد أن يقيّم جميع المراجعين الطلب.
+Awaiting Committee,بانتظار المراجعة
+Under Committee Vote,قيد المراجعة
+Pending Chair,بانتظار الاعتماد
+Revote Requested,أعيد للمراجعة
+Chair Reservation,عليه تحفظ
+Chair Inquiry,عليه استفسار
+Qualification Chair,معتمِد طلبات التأهيل
+Qualification Member,مراجِع طلبات التأهيل
+Qualification Applications,طلبات التأهيل
+Committee Page,صفحة اللجنة
+Applicants' Portal,بوابة المتقدّمين
+Committee and Permissions,اللجنة والصلاحيات

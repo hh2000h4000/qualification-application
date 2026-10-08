@@ -1,0 +1,134 @@
+{
+ "charts": [],
+ "content": "[{\"id\": \"sq-h1\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Supplier Qualification</b></span>\", \"col\": 12}}, {\"id\": \"sq-s0\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Qualification Applications\", \"col\": 3}}, {\"id\": \"sq-s1\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Committee Page\", \"col\": 3}}, {\"id\": \"sq-s2\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Applicants' Portal\", \"col\": 3}}, {\"id\": \"sq-s3\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Committee and Permissions\", \"col\": 3}}, {\"id\": \"sq-sp\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"sq-c0\", \"type\": \"card\", \"data\": {\"card_name\": \"Applications\", \"col\": 4}}, {\"id\": \"sq-c1\", \"type\": \"card\", \"data\": {\"card_name\": \"Committee\", \"col\": 4}}, {\"id\": \"sq-c2\", \"type\": \"card\", \"data\": {\"card_name\": \"Setup\", \"col\": 4}}]",
+ "creation": "2026-10-09 10:00:00.000000",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "organization",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Supplier Qualification",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Applications",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Qualification Application",
+   "link_to": "Qualification Application",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Qualification Vote",
+   "link_to": "Qualification Vote",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Committee",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Qualification Committee Member",
+   "link_to": "Qualification Committee Member",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Setup",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Qualification Settings",
+   "link_to": "Qualification Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Qualification Supply Category",
+   "link_to": "Qualification Supply Category",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Qualification Draft",
+   "link_to": "Qualification Draft",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-10-09 10:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Supplier Qualification",
+ "name": "Supplier Qualification",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 50.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Qualification Applications",
+   "link_to": "Qualification Application",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "label": "Committee Page",
+   "type": "URL",
+   "url": "/qualification_committee"
+  },
+  {
+   "color": "Grey",
+   "label": "Applicants' Portal",
+   "type": "URL",
+   "url": "/qualification"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Committee and Permissions",
+   "link_to": "Qualification Committee Member",
+   "type": "DocType"
+  }
+ ],
+ "title": "Supplier Qualification"
+}

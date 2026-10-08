@@ -1,0 +1,101 @@
+{
+ "actions": [],
+ "creation": "2026-10-08 12:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "components",
+  "sites_count",
+  "owner_name",
+  "owner_address",
+  "owner_contact",
+  "column_1",
+  "contract_value",
+  "contract_duration_months",
+  "start_date",
+  "end_date"
+ ],
+ "fields": [
+  {
+   "columns": 3,
+   "fieldname": "project_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Project / Contract",
+   "reqd": 1
+  },
+  {
+   "fieldname": "components",
+   "fieldtype": "Small Text",
+   "label": "Components"
+  },
+  {
+   "fieldname": "sites_count",
+   "fieldtype": "Int",
+   "label": "Sites Covered",
+   "non_negative": 1
+  },
+  {
+   "columns": 2,
+   "fieldname": "owner_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Owner / Client"
+  },
+  {
+   "fieldname": "owner_address",
+   "fieldtype": "Data",
+   "label": "Owner Address"
+  },
+  {
+   "fieldname": "owner_contact",
+   "fieldtype": "Data",
+   "label": "Owner Contact Number"
+  },
+  {
+   "fieldname": "column_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 2,
+   "fieldname": "contract_value",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Contract Value",
+   "non_negative": 1
+  },
+  {
+   "columns": 1,
+   "fieldname": "contract_duration_months",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Contract Duration (Months)",
+   "non_negative": 1
+  },
+  {
+   "columns": 1,
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date"
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2026-10-08 12:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Supplier Qualification",
+ "name": "Qualification Project",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

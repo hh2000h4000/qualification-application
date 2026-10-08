@@ -1,0 +1,41 @@
+{
+ "actions": [],
+ "creation": "2026-10-08 12:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "track",
+  "document_name"
+ ],
+ "fields": [
+  {
+   "columns": 3,
+   "fieldname": "track",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Track",
+   "options": "Construction Contractor\nO&M Contractor\nGeneral Supplier",
+   "reqd": 1
+  },
+  {
+   "columns": 7,
+   "fieldname": "document_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Document",
+   "reqd": 1
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2026-10-08 12:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Supplier Qualification",
+ "name": "Qualification Required Document",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

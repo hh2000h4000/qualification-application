@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "creation": "2026-10-08 12:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "decision_type",
+  "result",
+  "percentage",
+  "note",
+  "decided_by",
+  "decided_at"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "decision_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Decision",
+   "options": "Approve Result\nRecord Reservation\nRaise Inquiry\nRequest Revote",
+   "reqd": 1
+  },
+  {
+   "columns": 2,
+   "fieldname": "result",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Result",
+   "options": "\nQualified\nNot Qualified"
+  },
+  {
+   "columns": 1,
+   "fieldname": "percentage",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "Percentage"
+  },
+  {
+   "columns": 3,
+   "fieldname": "note",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Note"
+  },
+  {
+   "columns": 1,
+   "fieldname": "decided_by",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Decided By",
+   "options": "User"
+  },
+  {
+   "columns": 1,
+   "fieldname": "decided_at",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Decided At"
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2026-10-08 12:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Supplier Qualification",
+ "name": "Qualification Chair Decision",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

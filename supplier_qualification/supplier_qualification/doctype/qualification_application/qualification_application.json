@@ -1,0 +1,583 @@
+{
+ "actions": [],
+ "creation": "2026-10-08 12:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "track",
+  "email",
+  "column_1",
+  "status",
+  "submitted_at",
+  "section_2",
+  "company_name",
+  "cr_number",
+  "cr_date",
+  "capital",
+  "column_3",
+  "responsible_person",
+  "position",
+  "founding_year",
+  "section_4",
+  "city",
+  "street",
+  "po_box",
+  "postal_code",
+  "column_5",
+  "phone",
+  "fax",
+  "secondary_email",
+  "section_6",
+  "supply_categories",
+  "category_other",
+  "column_7",
+  "activity_description",
+  "tab_8",
+  "documents",
+  "tab_9",
+  "engineers",
+  "supervisors",
+  "technicians",
+  "section_10",
+  "has_operational_staff",
+  "resident_cleaner_committed",
+  "tab_11",
+  "org_chart_reference",
+  "org_chart_file",
+  "vehicles_count",
+  "has_uniforms",
+  "column_12",
+  "equipment_reference",
+  "equipment_file",
+  "section_13",
+  "projects",
+  "tab_14",
+  "has_quality_system",
+  "quality_details",
+  "column_15",
+  "quality_reference",
+  "quality_file",
+  "section_16",
+  "budget_years",
+  "section_17",
+  "has_disputes",
+  "dispute_details",
+  "has_accounting_system",
+  "column_18",
+  "bank_statement_reference",
+  "bank_statement_file",
+  "tab_19",
+  "ack_company_name",
+  "ack_employee",
+  "column_20",
+  "ack_date",
+  "ack_confirmed",
+  "tab_21",
+  "vote_round",
+  "final_result",
+  "column_22",
+  "final_percentage",
+  "supplier",
+  "section_23",
+  "chair_decisions"
+ ],
+ "fields": [
+  {
+   "fieldname": "track",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Track",
+   "options": "Construction Contractor\nO&M Contractor\nGeneral Supplier",
+   "reqd": 1,
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "column_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Awaiting Committee",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "Awaiting Committee\nUnder Committee Vote\nPending Chair\nRevote Requested\nChair Reservation\nChair Inquiry\nQualified\nNot Qualified",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "submitted_at",
+   "fieldtype": "Datetime",
+   "label": "Submitted At",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_2",
+   "fieldtype": "Section Break",
+   "label": "Organisation"
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Organisation Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cr_number",
+   "fieldtype": "Data",
+   "label": "Commercial Registration No.",
+   "reqd": 1
+  },
+  {
+   "depends_on": "eval:doc.track!='General Supplier'",
+   "fieldname": "cr_date",
+   "fieldtype": "Date",
+   "label": "Commercial Registration Date"
+  },
+  {
+   "depends_on": "eval:doc.track!='General Supplier'",
+   "fieldname": "capital",
+   "fieldtype": "Currency",
+   "label": "Capital",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "column_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "responsible_person",
+   "fieldtype": "Data",
+   "label": "Responsible Person",
+   "reqd": 1
+  },
+  {
+   "fieldname": "position",
+   "fieldtype": "Data",
+   "label": "Position"
+  },
+  {
+   "depends_on": "eval:doc.track!='General Supplier'",
+   "fieldname": "founding_year",
+   "fieldtype": "Int",
+   "label": "Founding Year",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "section_4",
+   "fieldtype": "Section Break",
+   "label": "Address and Contact"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "depends_on": "eval:doc.track!='General Supplier'",
+   "fieldname": "street",
+   "fieldtype": "Data",
+   "label": "Street"
+  },
+  {
+   "depends_on": "eval:doc.track!='General Supplier'",
+   "fieldname": "po_box",
+   "fieldtype": "Data",
+   "label": "P.O. Box"
+  },
+  {
+   "depends_on": "eval:doc.track!='General Supplier'",
+   "fieldname": "postal_code",
+   "fieldtype": "Data",
+   "label": "Postal Code"
+  },
+  {
+   "fieldname": "column_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone",
+   "options": "Phone"
+  },
+  {
+   "depends_on": "eval:doc.track!='General Supplier'",
+   "fieldname": "fax",
+   "fieldtype": "Data",
+   "label": "Fax"
+  },
+  {
+   "fieldname": "secondary_email",
+   "fieldtype": "Data",
+   "label": "Secondary Email",
+   "options": "Email"
+  },
+  {
+   "depends_on": "eval:doc.track=='General Supplier'",
+   "fieldname": "section_6",
+   "fieldtype": "Section Break",
+   "label": "Supply Activity"
+  },
+  {
+   "fieldname": "supply_categories",
+   "fieldtype": "Table MultiSelect",
+   "label": "Supply Categories",
+   "options": "Qualification Application Category"
+  },
+  {
+   "fieldname": "category_other",
+   "fieldtype": "Data",
+   "label": "Other Category"
+  },
+  {
+   "fieldname": "column_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "activity_description",
+   "fieldtype": "Small Text",
+   "label": "Supply Activity Description"
+  },
+  {
+   "fieldname": "tab_8",
+   "fieldtype": "Tab Break",
+   "label": "Documents"
+  },
+  {
+   "fieldname": "documents",
+   "fieldtype": "Table",
+   "label": "Documents",
+   "options": "Qualification Document"
+  },
+  {
+   "depends_on": "eval:doc.track!='General Supplier'",
+   "fieldname": "tab_9",
+   "fieldtype": "Tab Break",
+   "label": "Team"
+  },
+  {
+   "depends_on": "eval:doc.track=='Construction Contractor'",
+   "fieldname": "engineers",
+   "fieldtype": "Table",
+   "label": "Engineers",
+   "options": "Qualification Staff Member"
+  },
+  {
+   "fieldname": "supervisors",
+   "fieldtype": "Table",
+   "label": "Supervisors",
+   "options": "Qualification Staff Member"
+  },
+  {
+   "depends_on": "eval:doc.track=='O&M Contractor'",
+   "fieldname": "technicians",
+   "fieldtype": "Table",
+   "label": "Technicians",
+   "options": "Qualification Staff Member"
+  },
+  {
+   "fieldname": "section_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "eval:doc.track=='Construction Contractor'",
+   "fieldname": "has_operational_staff",
+   "fieldtype": "Select",
+   "label": "Has Sufficient Operational Staff",
+   "options": "\nYes\nNo"
+  },
+  {
+   "default": "0",
+   "depends_on": "eval:doc.track=='O&M Contractor'",
+   "fieldname": "resident_cleaner_committed",
+   "fieldtype": "Check",
+   "label": "Commits to Resident Cleaners"
+  },
+  {
+   "depends_on": "eval:doc.track!='General Supplier'",
+   "fieldname": "tab_11",
+   "fieldtype": "Tab Break",
+   "label": "Capacity and Experience"
+  },
+  {
+   "depends_on": "eval:doc.track=='Construction Contractor'",
+   "fieldname": "org_chart_reference",
+   "fieldtype": "Data",
+   "label": "Organisation Chart Link",
+   "length": 500
+  },
+  {
+   "depends_on": "eval:doc.track=='Construction Contractor'",
+   "fieldname": "org_chart_file",
+   "fieldtype": "Attach",
+   "label": "Organisation Chart File"
+  },
+  {
+   "depends_on": "eval:doc.track=='O&M Contractor'",
+   "fieldname": "vehicles_count",
+   "fieldtype": "Int",
+   "label": "Vehicles Assigned",
+   "non_negative": 1
+  },
+  {
+   "depends_on": "eval:doc.track=='O&M Contractor'",
+   "fieldname": "has_uniforms",
+   "fieldtype": "Select",
+   "label": "Commits to Uniforms and ID Cards",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "column_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "equipment_reference",
+   "fieldtype": "Data",
+   "label": "Equipment Proof Link",
+   "length": 500
+  },
+  {
+   "fieldname": "equipment_file",
+   "fieldtype": "Attach",
+   "label": "Equipment Proof File"
+  },
+  {
+   "fieldname": "section_13",
+   "fieldtype": "Section Break",
+   "label": "Previous Projects and Contracts"
+  },
+  {
+   "fieldname": "projects",
+   "fieldtype": "Table",
+   "label": "Projects",
+   "options": "Qualification Project"
+  },
+  {
+   "depends_on": "eval:doc.track!='General Supplier'",
+   "fieldname": "tab_14",
+   "fieldtype": "Tab Break",
+   "label": "Quality and Finance"
+  },
+  {
+   "fieldname": "has_quality_system",
+   "fieldtype": "Select",
+   "label": "Has a Quality System",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "quality_details",
+   "fieldtype": "Small Text",
+   "label": "Quality System Details"
+  },
+  {
+   "fieldname": "column_15",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "quality_reference",
+   "fieldtype": "Data",
+   "label": "Quality System Link",
+   "length": 500
+  },
+  {
+   "fieldname": "quality_file",
+   "fieldtype": "Attach",
+   "label": "Quality System File"
+  },
+  {
+   "fieldname": "section_16",
+   "fieldtype": "Section Break",
+   "label": "Financial Position"
+  },
+  {
+   "fieldname": "budget_years",
+   "fieldtype": "Table",
+   "label": "Audited Budgets",
+   "options": "Qualification Budget Year"
+  },
+  {
+   "fieldname": "section_17",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "has_disputes",
+   "fieldtype": "Select",
+   "label": "Has Legal Disputes",
+   "options": "\nYes\nNo"
+  },
+  {
+   "depends_on": "eval:doc.has_disputes=='Yes'",
+   "fieldname": "dispute_details",
+   "fieldtype": "Small Text",
+   "label": "Dispute Details"
+  },
+  {
+   "fieldname": "has_accounting_system",
+   "fieldtype": "Select",
+   "label": "Has an Accounting System",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "column_18",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bank_statement_reference",
+   "fieldtype": "Data",
+   "label": "Bank Statement Link",
+   "length": 500
+  },
+  {
+   "fieldname": "bank_statement_file",
+   "fieldtype": "Attach",
+   "label": "Bank Statement File"
+  },
+  {
+   "fieldname": "tab_19",
+   "fieldtype": "Tab Break",
+   "label": "Declaration"
+  },
+  {
+   "fieldname": "ack_company_name",
+   "fieldtype": "Data",
+   "label": "Organisation Name (Declaration)"
+  },
+  {
+   "fieldname": "ack_employee",
+   "fieldtype": "Data",
+   "label": "Responsible Employee"
+  },
+  {
+   "fieldname": "column_20",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ack_date",
+   "fieldtype": "Date",
+   "label": "Declaration Date"
+  },
+  {
+   "default": "0",
+   "fieldname": "ack_confirmed",
+   "fieldtype": "Check",
+   "label": "Declaration Confirmed"
+  },
+  {
+   "fieldname": "tab_21",
+   "fieldtype": "Tab Break",
+   "label": "Committee"
+  },
+  {
+   "default": "1",
+   "fieldname": "vote_round",
+   "fieldtype": "Int",
+   "label": "Voting Round",
+   "read_only": 1
+  },
+  {
+   "fieldname": "final_result",
+   "fieldtype": "Select",
+   "in_standard_filter": 1,
+   "label": "Final Result",
+   "options": "\nQualified\nNot Qualified",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_22",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "final_percentage",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "Final Percentage",
+   "read_only": 1
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Link",
+   "label": "Supplier",
+   "options": "Supplier",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_23",
+   "fieldtype": "Section Break",
+   "label": "Chair Decisions"
+  },
+  {
+   "fieldname": "chair_decisions",
+   "fieldtype": "Table",
+   "label": "Chair Decisions",
+   "options": "Qualification Chair Decision",
+   "read_only": 1
+  }
+ ],
+ "links": [],
+ "modified": "2026-10-08 12:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Supplier Qualification",
+ "name": "Qualification Application",
+ "naming_rule": "By script",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Qualification Admin",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Qualification Chair",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Qualification Member",
+   "share": 1
+  }
+ ],
+ "search_fields": "company_name,cr_number,email",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "company_name",
+ "track_changes": 1
+}
