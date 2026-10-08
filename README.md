@@ -10,7 +10,7 @@ applicant becomes an ERPNext `Supplier`.
 
 ## Install
 
-    bench get-app https://github.com/<owner>/supplier_qualification
+    bench get-app https://github.com/hh2000h4000/qualification-application
     bench --site your-site install-app supplier_qualification
     bench build --app supplier_qualification
     bench restart        # or stop and start `bench start` on a development bench
